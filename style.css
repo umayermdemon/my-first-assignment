@@ -36,6 +36,8 @@
 }
 
 /* main section styles */
+
+/* discount section style  */
 .discount-title {
   color: #f00;
   text-align: center;
@@ -62,4 +64,51 @@
 .new-year-img {
   display: block;
   margin: 50px auto;
+}
+
+/* welcome section */
+.main-welcome {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("resources/Vector.png");
+  width: 1320px;
+  height: 600px;
+  border-radius: 5px;
+  margin: 50px auto;
+  display: flex;
+  gap: 20px;
+}
+.welcome {
+  padding: 130px 0 150px 130px;
+}
+.welcome-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  width: 642px;
+}
+.welcome-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  width: 697px;
+  line-height: 30px; /* 166.667% */
+  padding-top: 25px;
+}
+.join {
+  background: none;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  border: 0;
+  text-transform: uppercase;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.new-img {
+  padding: 70px 140px 70px 0;
 }
