@@ -1,0 +1,35 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+/* header related style  */
+.main-banner {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("resources/Banner-image.png");
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  margin: 50px auto;
+}
+.banner{
+  padding: 120px ;
+}
+.banner-title {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  padding-bottom: 0;
+}
+.banner-description {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  width: 632px;
+  padding-top: 10px;
+  text-align: center;
+  padding-left: 230px;
+}
