@@ -103,7 +103,6 @@
   font-size: 18px;
   font-weight: 400;
   width: 697px;
-  line-height: 30px; /* 166.667% */
   padding-top: 25px;
 }
 .join {
@@ -144,7 +143,7 @@
 }
 .item {
   color: #070211;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 600;
   padding-top: 100px;
 }
@@ -251,22 +250,22 @@
   width: 650px;
   margin: 0 auto;
 }
-.right-side-img{
+.right-side-img {
   position: relative;
   float: right;
   top: 55px;
 }
-.child-img{
+.child-img {
   position: absolute;
   left: -170px;
   top: 80px;
 }
-.bottom-img{
+.bottom-img {
   position: relative;
   bottom: 0;
   top: 50px;
 }
-.child-bottom-img{
+.child-bottom-img {
   position: absolute;
   top: 40px;
 }
@@ -297,7 +296,7 @@
 .portfolio-description {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
 }
 /* portfolio img  */
@@ -349,7 +348,7 @@
   width: 750px;
   margin: 20px auto 50px auto;
 }
-.subscribe-button{
+.subscribe-button {
   position: absolute;
   width: 500px;
   left: 40%;
@@ -384,10 +383,59 @@
   bottom: -1px;
 }
 
-
 /* footer style  */
-footer{
+footer {
   height: 700px;
-  width: 1600px;
-  background:  #070211;;
+  background: #070211;
+}
+.footer-container {
+  padding: 140px 120px;
+}
+.first-footer-row {
+  display: flex;
+  justify-content: space-around;
+}
+address {
+  color: #fff;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 500;
+}
+.contact {
+  list-style: none;
+}
+.contact a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: none;
+}
+hr {
+  width: 2000px;
+  border: 1px solid #3d3c3c;
+  outline: none;
+  margin: 60px auto;
+}
+.second-footer-row {
+  text-align: center;
+  letter-spacing: 5px;
+}
+.third-footer-row {
+  display: flex;
+  justify-content: space-around;
+}
+.third-footer-row h3, h3>button {
+  color: #fff;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 500;
+}
+.third-footer-row h3 button{
+  background: none;
+  outline: none;
+  border: 0;
+}
+h3 button:hover{
+  color: #f58d01;
 }
