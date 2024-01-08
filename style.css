@@ -397,7 +397,7 @@ footer {
 address {
   color: #fff;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 500;
 }
 .contact {
@@ -406,7 +406,7 @@ address {
 .contact a {
   color: #fff;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 500;
   text-decoration: none;
 }
@@ -427,7 +427,7 @@ hr {
 .third-footer-row h3, h3>button {
   color: #fff;
   font-family: Inter;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 500;
 }
 .third-footer-row h3 button{
