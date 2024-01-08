@@ -153,17 +153,12 @@
 /* offer style  */
 .main-offer {
   display: flex;
-  justify-content: space-around;
-  gap: 10px;
-  width: 1600px;
-  height: 500px;
+  justify-content: space-between;
+  width: 1320px;
+  height: 480px;
   align-items: center;
   background: #fff;
   margin: 100px auto ;
-  padding: 0 180px;
-}
-.offer {
-  padding-left: 50px;
 }
 .offer-head {
   color: #f00;
@@ -186,14 +181,12 @@
   width: 393px;
   font-weight: 400;
   padding-bottom: 15px;
-  line-height: 32px; /* 160% */
 }
 
 .offer-img {
   width: 400px;
   height: 400px;
   border-radius: 400px;
-  /* align-items: center; */
   border: 15px solid #f00;
 }
 .img-size {
@@ -208,8 +201,5 @@
   font-family: Inter;
 }
 .offer-width {
-  width: 276px;
-}
-.offer-year{
-  padding-right: 50px;
+  width: 300px;
 }
