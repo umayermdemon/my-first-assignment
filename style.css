@@ -12,7 +12,7 @@
   height: 600px;
   border-radius: 16px;
   margin: 50px auto 100px auto;
-  border: 10px solid red;
+  /* border: 10px solid red; */
 }
 .banner {
   padding: 180px 350px;
@@ -43,7 +43,7 @@
   width: 1320px;
   height: 750px;
   margin: 0 auto;
-  border: 10px solid red;
+  /* border: 10px solid red; */
 }
 .discount {
   text-align: center;
@@ -87,7 +87,7 @@
   margin: 100px auto;
   display: flex;
   gap: 20px;
-  border: 10px solid red;
+  /* border: 10px solid red; */
 }
 .welcome {
   padding: 130px 0 150px 130px;
@@ -139,7 +139,7 @@
     rgba(255, 0, 0, 0) 100%
   );
   margin: 0 auto;
-  border: 10px solid red;
+  /* border: 10px solid red; */
 }
 .place {
   text-align: center;
@@ -176,7 +176,7 @@
   align-items: center;
   background: #fff;
   margin: 100px auto;
-  border: 10px solid red;
+  /* border: 10px solid red; */
 }
 .offer-head {
   color: #f00;
@@ -270,7 +270,7 @@
   width: 1320px;
   height: 1100px;
   margin: 0 auto;
-  border: 10px solid red;
+  /* border: 10px solid red; */
 }
 .portfolio {
   width: 600px;
@@ -319,14 +319,14 @@
 /* subscribe style  */
 .main-subscribe {
   width: 1320px;
-  height: 616px;
+  height: 550px;
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
   margin: 100px auto;
   text-align: center;
 }
-.subscribe{
-  /* width: 896px; */
+.subscribe-img {
+  margin-top: 80px;
 }
 .subscribe-title {
   color: #070211;
@@ -334,10 +334,54 @@
   font-size: 40px;
   font-weight: 900;
   text-transform: capitalize;
+  margin-top: 40px;
 }
 .subscribe-description {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
+  width: 750px;
+  margin: 20px auto 50px auto;
+}
+.subscribe-button{
+  position: absolute;
+  width: 500px;
+  left: 40%;
+}
+.subscribe-button input {
+  position: relative;
+  width: 300px;
+  height: 50px;
+  border: 0;
+  padding: 0 20px;
+  outline: none;
+  border-radius: 25px 0 0 25px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+.button {
+  position: relative;
+  width: 150px;
+  height: 50px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border: 0;
+  outline: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  left: -6px;
+  bottom: -1px;
+}
+
+
+/* footer style  */
+footer{
+  height: 700px;
+  background:  #070211;;
 }
