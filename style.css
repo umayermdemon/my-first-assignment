@@ -12,7 +12,6 @@
   height: 600px;
   border-radius: 16px;
   margin: 50px auto 100px auto;
-  /* border: 10px solid red; */
 }
 .banner {
   padding: 180px 350px;
@@ -43,7 +42,6 @@
   width: 1320px;
   height: 750px;
   margin: 0 auto;
-  /* border: 10px solid red; */
 }
 .discount {
   text-align: center;
@@ -87,7 +85,6 @@
   margin: 100px auto;
   display: flex;
   gap: 20px;
-  /* border: 10px solid red; */
 }
 .welcome {
   padding: 130px 0 150px 130px;
@@ -139,7 +136,6 @@
     rgba(255, 0, 0, 0) 100%
   );
   margin: 0 auto;
-  /* border: 10px solid red; */
 }
 .place {
   text-align: center;
@@ -176,7 +172,6 @@
   align-items: center;
   background: #fff;
   margin: 100px auto;
-  /* border: 10px solid red; */
 }
 .offer-head {
   color: #f00;
@@ -222,11 +217,10 @@
 }
 
 /* holiday style  */
-/* .main-holiday {
+.main-holiday {
   width: 1320px;
-  height: 800px;
-  border: 10px solid red;
-  margin: 0 auto;
+  height: 900px;
+  margin: 100px auto;
 }
 .holiday {
   text-align: center;
@@ -257,20 +251,31 @@
   width: 650px;
   margin: 0 auto;
 }
-.bottom {
-  width: 1320px;
-  height: 229px;
+.right-side-img{
+  position: relative;
+  float: right;
+  top: 55px;
 }
-.holiday-img{
-  display: flex;
-} */
+.child-img{
+  position: absolute;
+  left: -170px;
+  top: 80px;
+}
+.bottom-img{
+  position: relative;
+  bottom: 0;
+  top: 50px;
+}
+.child-bottom-img{
+  position: absolute;
+  top: 40px;
+}
 
 /* portfolio style  */
 .main-portfolio {
   width: 1320px;
   height: 1100px;
   margin: 0 auto;
-  /* border: 10px solid red; */
 }
 .portfolio {
   width: 600px;
@@ -383,5 +388,6 @@
 /* footer style  */
 footer{
   height: 700px;
+  width: auto;
   background:  #070211;;
 }
