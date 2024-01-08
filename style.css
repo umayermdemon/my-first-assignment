@@ -38,6 +38,14 @@
 /* main section styles */
 
 /* discount section style  */
+.main-discount{
+  width: 1320px;
+  height: 700px;
+  margin: 0 auto;
+}
+.discount{
+  text-align: center;
+}
 .discount-title {
   color: #f00;
   text-align: center;
@@ -187,7 +195,6 @@
   width: 400px;
   height: 400px;
   border-radius: 400px;
-  border: 15px solid #f00;
 }
 .img-size {
   width: 350px;
