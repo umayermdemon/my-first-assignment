@@ -12,6 +12,7 @@
   height: 600px;
   border-radius: 16px;
   margin: 50px auto 100px auto;
+  border: 10px solid red;
 }
 .banner {
   padding: 180px 350px;
@@ -38,12 +39,13 @@
 /* main section styles */
 
 /* discount section style  */
-.main-discount{
+.main-discount {
   width: 1320px;
-  height: 700px;
+  height: 750px;
   margin: 0 auto;
+  border: 10px solid red;
 }
-.discount{
+.discount {
   text-align: center;
 }
 .discount-title {
@@ -52,7 +54,7 @@
   font-family: Inter;
   font-size: 88px;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .discount-deals {
   color: #f00;
@@ -68,6 +70,7 @@
   font-family: Inter;
   font-size: 48px;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 .new-year-img {
   display: block;
@@ -84,6 +87,7 @@
   margin: 100px auto;
   display: flex;
   gap: 20px;
+  border: 10px solid red;
 }
 .welcome {
   padding: 130px 0 150px 130px;
@@ -116,6 +120,10 @@
   text-transform: uppercase;
   padding-top: 50px;
   padding-left: 30px;
+  cursor: pointer;
+}
+.join:hover {
+  color: #f58d01;
 }
 .new-img {
   padding: 70px 140px 70px 0;
@@ -131,6 +139,7 @@
     rgba(255, 0, 0, 0) 100%
   );
   margin: 0 auto;
+  border: 10px solid red;
 }
 .place {
   text-align: center;
@@ -166,7 +175,8 @@
   height: 480px;
   align-items: center;
   background: #fff;
-  margin: 100px auto ;
+  margin: 100px auto;
+  border: 10px solid red;
 }
 .offer-head {
   color: #f00;
@@ -190,7 +200,6 @@
   font-weight: 400;
   padding-bottom: 15px;
 }
-
 .offer-img {
   width: 400px;
   height: 400px;
@@ -202,6 +211,7 @@
   border-radius: 350px;
   align-items: center;
   padding: 25px;
+  border: 15px solid #f00;
 }
 .offer-color {
   color: #f00;
@@ -209,4 +219,125 @@
 }
 .offer-width {
   width: 300px;
+}
+
+/* holiday style  */
+/* .main-holiday {
+  width: 1320px;
+  height: 800px;
+  border: 10px solid red;
+  margin: 0 auto;
+}
+.holiday {
+  text-align: center;
+}
+.holiday-head {
+  color: #070211;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+.holiday-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 60px;
+  font-weight: 900;
+  margin: 15px 0;
+}
+.holiday-sale {
+  color: #f00;
+}
+
+.holiday-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  width: 650px;
+  margin: 0 auto;
+}
+.bottom {
+  width: 1320px;
+  height: 229px;
+}
+.holiday-img{
+  display: flex;
+} */
+
+/* portfolio style  */
+.main-portfolio {
+  width: 1320px;
+  height: 1100px;
+  margin: 0 auto;
+  border: 10px solid red;
+}
+.portfolio {
+  width: 600px;
+}
+.portfolio-head {
+  color: #f00;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+.portfolio-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding: 10px 0;
+}
+.portfolio-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* portfolio img  */
+.first-row,
+.second-row {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+.first-row-img,
+.second-row-img {
+  width: 424px;
+  height: 450px;
+  border: 2px solid #fff;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.first-row-img:hover,
+.second-row-img:hover {
+  border: 2px solid #000;
+  border-radius: 16px;
+}
+
+/* subscribe style  */
+.main-subscribe {
+  width: 1320px;
+  height: 616px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin: 100px auto;
+  text-align: center;
+}
+.subscribe{
+  /* width: 896px; */
+}
+.subscribe-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.subscribe-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
 }
