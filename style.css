@@ -420,6 +420,10 @@ hr {
   text-align: center;
   letter-spacing: 5px;
 }
+.second-footer-row a{
+  padding-right: 20px;
+  text-decoration: none;
+}
 .third-footer-row {
   display: flex;
   justify-content: space-around;
